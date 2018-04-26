@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8787,28 +8787,28 @@ http://www.jst-mfg.com&lt;p&gt;
 <pinref part="IC1" gate="G$1" pin="SWDIO"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="GPIO_LED1_R" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="233.68" y1="152.4" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="GPIO_LED2_R" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="220.98" y1="152.4" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="GPIO_LED3_R" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="208.28" y1="152.4" x2="208.28" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="GPIO_LED2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
@@ -8816,7 +8816,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <pinref part="IC1" gate="G$1" pin="P0.03/AIN1"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="GPIO_LED1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="127" x2="233.68" y2="127" width="0.1524" layer="91"/>
@@ -8824,7 +8824,7 @@ http://www.jst-mfg.com&lt;p&gt;
 <pinref part="IC1" gate="G$1" pin="P0.04/AIN2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="GPIO_LED3" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="132.08" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
